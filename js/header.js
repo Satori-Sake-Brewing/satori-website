@@ -2,22 +2,21 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('../partials/header.html')
       .then(response => response.text())
       .then(data => {
-        document.querySelector('header').innerHTML = data;
+        document.getElementById('header-container').innerHTML = data;
         updateActiveLink();
       });
   });
   
   function updateActiveLink() {
-    const currentPage = window.location.pathname;
+    const activeLink = document.body.getAttribute('data-active-link');
     const navLinks = document.querySelectorAll('.nav-link');
   
     navLinks.forEach(link => {
-      if (link.getAttribute('href') === currentPage) {
+      const href = link.getAttribute('href');
+      if (href === activeLink) {
         link.classList.add('active');
-        link.setAttribute('aria-current', 'page');
       } else {
         link.classList.remove('active');
-        link.removeAttribute('aria-current');
       }
     });
-  }
+}
