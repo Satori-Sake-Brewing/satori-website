@@ -6,3 +6,26 @@ dark blue: #14295B
 pink: #B16467
 */
 
+.nav-underline .nav-link {
+    font-family: 'Inter', sans-serif;
+    color: #14295B;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .nav-underline .nav-link:hover,
+  .nav-underline .nav-link:focus {
+    border-bottom-color: #14295B;
+  }
+  
+  .nav-underline .nav-link.active {
+    color: #14295B;
+    border-bottom-color: #14295B;
+  }
+
+  .icon-link {
+    font-size: large;
+    text-decoration: none;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
