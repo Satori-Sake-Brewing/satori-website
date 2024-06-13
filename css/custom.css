@@ -29,3 +29,26 @@ pink: #B16467
     margin-right: .5rem;
     margin-top: .5rem;
 }
+
+p {
+  font-family: 'Inter', sans-serif;;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+}
+
+.custom-btn {
+  background-color: #699FBC;
+  border-color: #699FBC;
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: #5589a8;
+  border-color: #5589a8;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+}
