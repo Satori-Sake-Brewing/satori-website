@@ -31,11 +31,11 @@ pink: #B16467
 }
 
 p {
-  font-family: 'Inter', sans-serif;;
+  font-family: 'Avenir', 'Arial', sans-serif;
 }
 
 h1, h2, h3 {
-  font-family: 'Lora', serif;
+  font-family: 'Rockwell', 'Georgia', serif;
 }
 
 .custom-btn {
