@@ -7,7 +7,7 @@ pink: #B16467
 */
 
 .nav-underline .nav-link {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Avenir', 'Arial', sans-serif;
     color: #14295B;
     border-bottom: 2px solid transparent;
     transition: border-color 0.3s;
