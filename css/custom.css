@@ -6,6 +6,9 @@ dark blue: #14295B
 pink: #B16467
 */
 
+/* * {
+  border: red solid 2px;
+} */
 .nav-underline .nav-link {
     font-family: 'Avenir', 'Arial', sans-serif;
     color: #14295B;
@@ -51,4 +54,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact-text {
   font-size: 1.1rem;
+}
+
+.jumbo-junmai {
+  background: #B4D2E7;
+}
+
+.jumbo-nigori {
+  background: #E7B4A9;
+  color: white;
 }
