@@ -8,6 +8,8 @@ pink: #B16467
 
 .nav-underline .nav-link {
     font-family: 'Avenir', 'Arial', sans-serif;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
     color: #14295B;
     border-bottom: 2px solid transparent;
     transition: border-color 0.3s;
@@ -30,8 +32,14 @@ pink: #B16467
     margin-top: .5rem;
 }
 
+.img-smaller {
+  max-width: 70%;
+  height: auto;
+}
+
 p {
   font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 1.25rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -42,6 +50,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #699FBC;
   border-color: #699FBC;
   color: white;
+  font-size: 1.25rem;
 }
 
 .custom-btn:hover {
@@ -50,11 +59,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-text {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
 }
 
 .jumbo-junmai {
-  background: #B4D2E7;
+  background: rgba(180, 210, 231, 0.5);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.jumbo-junmai-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.jumbo-junmai-img {
+  border-radius: 12px; 
+  width: 100%; 
+  height: auto;
 }
 
 .jumbo-nigori {
@@ -64,4 +87,58 @@ h1, h2, h3, h4, h5, h6 {
 
 .class {
   color: rgb(108, 117, 125)
+}
+
+/* Custom styles for the age verification modal */
+.satori-modal {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 15px;
+}
+
+.satori-modal-header {
+  border-bottom: 2px solid #14295B;
+  padding: 1.5rem;
+}
+
+.satori-modal-header .modal-title {
+  color: #14295B;
+  font-weight: bold;
+}
+
+.satori-modal-body {
+  padding: 2rem;
+  color: #14295B;
+  font-size: 1.2rem;
+}
+
+.satori-modal-footer {
+  border-top: none;
+  padding: 1.5rem;
+}
+
+.satori-btn-primary {
+  background-color: #14295B;
+  border-color: #14295B;
+  color: white;
+  padding: 0.5rem 2rem;
+}
+
+.satori-btn-primary:hover {
+  background-color: #0e1d3f;
+  border-color: #0e1d3f;
+  color: white;
+}
+
+.satori-btn-secondary {
+  background-color: #f8f9fa;
+  border-color: #14295B;
+  color: #14295B;
+  padding: 0.5rem 2rem;
+}
+
+.satori-btn-secondary:hover {
+  background-color: #e2e6ea;
+  border-color: #0e1d3f;
+  color: #0e1d3f;
 }
